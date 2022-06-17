@@ -1,0 +1,248 @@
+
+JhansiViswanath@DESKTOP-HMUPB84 MINGW64 ~/Desktop/DEV-OPS
+$ git init
+Initialized empty Git repository in C:/Users/JhansiViswanath/Desktop/DEV-OPS/.git/
+
+JhansiViswanath@DESKTOP-HMUPB84 MINGW64 ~/Desktop/DEV-OPS (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Apache-Tomcat-Installation.txt
+        FLOW.jpg
+        Jenkins-Installation-Terminal.txt
+        Screenshot_1.jpg
+        awscourse.txt
+        commands.pem
+        commands.ppk
+        fruits.txt
+        git-terminal.txt
+        merge.txt
+        practice.pem
+        srinath-tkt.pdf
+        tar-command.txt
+        tomcat-jenkins-terminal.txt
+        web-application-development-process-shceme-illustration.jpg
+        web-application-development-process.png
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+JhansiViswanath@DESKTOP-HMUPB84 MINGW64 ~/Desktop/DEV-OPS (master)
+$ ls -la
+total 10420
+drwxr-xr-x 1 JhansiViswanath 197121       0 Jun  9 06:25 ./
+drwxr-xr-x 1 JhansiViswanath 197121       0 Jun  9 06:25 ../
+drwxr-xr-x 1 JhansiViswanath 197121       0 Jun  9 06:25 .git/
+-rw-r--r-- 1 JhansiViswanath 197121    3247 Jun  2 07:58 Apache-Tomcat-Installation.txt
+-rw-r--r-- 1 JhansiViswanath 197121  353342 Dec 20 08:15 FLOW.jpg
+-rw-r--r-- 1 JhansiViswanath 197121  191070 May 31 08:26 Jenkins-Installation-Terminal.txt
+-rw-r--r-- 1 JhansiViswanath 197121   49547 Jan 13 15:46 Screenshot_1.jpg
+-rw-r--r-- 1 JhansiViswanath 197121     104 Jan  1 08:42 awscourse.txt
+-rw-r--r-- 1 JhansiViswanath 197121    1704 Dec 24 14:46 commands.pem
+-rw-r--r-- 1 JhansiViswanath 197121    1462 Dec 24 14:49 commands.ppk
+-rw-r--r-- 1 JhansiViswanath 197121      81 Jan  1 08:42 fruits.txt
+-rw-r--r-- 1 JhansiViswanath 197121    9185 Jun  8 09:46 git-terminal.txt
+-rw-r--r-- 1 JhansiViswanath 197121     185 Jan  1 08:43 merge.txt
+-rw-r--r-- 1 JhansiViswanath 197121    1704 Dec 22 07:35 practice.pem
+drwxr-xr-x 1 JhansiViswanath 197121       0 Dec 24 15:20 sample/
+-rw-r--r-- 1 JhansiViswanath 197121 9712052 Dec 23 13:49 srinath-tkt.pdf
+-rw-r--r-- 1 JhansiViswanath 197121     244 Jan  5 14:19 tar-command.txt
+-rw-r--r-- 1 JhansiViswanath 197121  133726 Jun  1 08:11 tomcat-jenkins-terminal.txt
+-rw-r--r-- 1 JhansiViswanath 197121   90702 Dec 20 07:14 web-application-development-process-shceme-illustration.jpg
+-rw-r--r-- 1 JhansiViswanath 197121   61312 Dec 20 07:15 web-application-development-process.png
+
+JhansiViswanath@DESKTOP-HMUPB84 MINGW64 ~/Desktop/DEV-OPS (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Apache-Tomcat-Installation.txt
+        FLOW.jpg
+        Jenkins-Installation-Terminal.txt
+        Screenshot_1.jpg
+        awscourse.txt
+        commands.pem
+        commands.ppk
+        fruits.txt
+        git-terminal.txt
+        merge.txt
+        practice.pem
+        srinath-tkt.pdf
+        tar-command.txt
+        tomcat-jenkins-terminal.txt
+        web-application-development-process-shceme-illustration.jpg
+        web-application-development-process.png
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+JhansiViswanath@DESKTOP-HMUPB84 MINGW64 ~/Desktop/DEV-OPS (master)
+$ git add merge.txt fruits.txt practice.pem
+
+JhansiViswanath@DESKTOP-HMUPB84 MINGW64 ~/Desktop/DEV-OPS (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   fruits.txt
+        new file:   merge.txt
+        new file:   practice.pem
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Apache-Tomcat-Installation.txt
+        FLOW.jpg
+        Jenkins-Installation-Terminal.txt
+        Screenshot_1.jpg
+        awscourse.txt
+        commands.pem
+        commands.ppk
+        git-terminal.txt
+        srinath-tkt.pdf
+        tar-command.txt
+        tomcat-jenkins-terminal.txt
+        web-application-development-process-shceme-illustration.jpg
+        web-application-development-process.png
+
+
+JhansiViswanath@DESKTOP-HMUPB84 MINGW64 ~/Desktop/DEV-OPS (master)
+$ git config --global --list
+user.name=janvish
+user.mail=visu04b8@gmail.com
+user.email=visu04b8@gmail.com
+
+JhansiViswanath@DESKTOP-HMUPB84 MINGW64 ~/Desktop/DEV-OPS (master)
+$ git commit -m "1st Commit"
+[master (root-commit) ee53de4] 1st Commit
+ 3 files changed, 53 insertions(+)
+ create mode 100644 fruits.txt
+ create mode 100644 merge.txt
+ create mode 100644 practice.pem
+
+JhansiViswanath@DESKTOP-HMUPB84 MINGW64 ~/Desktop/DEV-OPS (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Apache-Tomcat-Installation.txt
+        FLOW.jpg
+        Jenkins-Installation-Terminal.txt
+        Screenshot_1.jpg
+        awscourse.txt
+        commands.pem
+        commands.ppk
+        git-terminal.txt
+        srinath-tkt.pdf
+        tar-command.txt
+        tomcat-jenkins-terminal.txt
+        web-application-development-process-shceme-illustration.jpg
+        web-application-development-process.png
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+JhansiViswanath@DESKTOP-HMUPB84 MINGW64 ~/Desktop/DEV-OPS (master)
+$ git add *
+warning: LF will be replaced by CRLF in commands.ppk.
+The file will have its original line endings in your working directory
+
+JhansiViswanath@DESKTOP-HMUPB84 MINGW64 ~/Desktop/DEV-OPS (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Apache-Tomcat-Installation.txt
+        new file:   FLOW.jpg
+        new file:   Jenkins-Installation-Terminal.txt
+        new file:   Screenshot_1.jpg
+        new file:   awscourse.txt
+        new file:   commands.pem
+        new file:   commands.ppk
+        new file:   git-terminal.txt
+        new file:   srinath-tkt.pdf
+        new file:   tar-command.txt
+        new file:   tomcat-jenkins-terminal.txt
+        new file:   web-application-development-process-shceme-illustration.jpg
+        new file:   web-application-development-process.png
+
+
+JhansiViswanath@DESKTOP-HMUPB84 MINGW64 ~/Desktop/DEV-OPS (master)
+$ git commit -m "2nd Commit"
+[master 80aa962] 2nd Commit
+ 13 files changed, 5410 insertions(+)
+ create mode 100644 Apache-Tomcat-Installation.txt
+ create mode 100644 FLOW.jpg
+ create mode 100644 Jenkins-Installation-Terminal.txt
+ create mode 100644 Screenshot_1.jpg
+ create mode 100644 awscourse.txt
+ create mode 100644 commands.pem
+ create mode 100644 commands.ppk
+ create mode 100644 git-terminal.txt
+ create mode 100644 srinath-tkt.pdf
+ create mode 100644 tar-command.txt
+ create mode 100644 tomcat-jenkins-terminal.txt
+ create mode 100644 web-application-development-process-shceme-illustration.jpg
+ create mode 100644 web-application-development-process.png
+
+JhansiViswanath@DESKTOP-HMUPB84 MINGW64 ~/Desktop/DEV-OPS (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+JhansiViswanath@DESKTOP-HMUPB84 MINGW64 ~/Desktop/DEV-OPS (master)
+$ git remote -v
+
+JhansiViswanath@DESKTOP-HMUPB84 MINGW64 ~/Desktop/DEV-OPS (master)
+$ git remote add dvop https://github.com/janvish/MyDevOpsZone.git
+
+JhansiViswanath@DESKTOP-HMUPB84 MINGW64 ~/Desktop/DEV-OPS (master)
+$ git remote -v
+dvop    https://github.com/janvish/MyDevOpsZone.git (fetch)
+dvop    https://github.com/janvish/MyDevOpsZone.git (push)
+
+JhansiViswanath@DESKTOP-HMUPB84 MINGW64 ~/Desktop/DEV-OPS (master)
+$ git push dvop master
+fatal: unable to access 'https://github.com/janvish/MyDevOpsZone.git/': SSL connection timeout
+
+JhansiViswanath@DESKTOP-HMUPB84 MINGW64 ~/Desktop/DEV-OPS (master)
+$ git push --force dvop master
+Enumerating objects: 20, done.
+Counting objects: 100% (20/20), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (20/20), done.
+Writing objects: 100% (20/20), 3.57 MiB | 722.00 KiB/s, done.
+Total 20 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/janvish/MyDevOpsZone.git
+ + af84429...80aa962 master -> master (forced update)
+
+JhansiViswanath@DESKTOP-HMUPB84 MINGW64 ~/Desktop/DEV-OPS (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+JhansiViswanath@DESKTOP-HMUPB84 MINGW64 ~/Desktop/DEV-OPS (master)
+
+
+
+git push origin --force
+git checkout mybranch
+git reset --hard origin/mybranch
+git remote add origin https://github.com/tqisjim/google-oauth.git
+git push -u origin master
+#Just follow next steps in console terminal ;)
+git init	#Initialize git in folder
+git add .	#add all files of folder to be pushed
+git commit -m "First commit"	#add first commit
+git remote add origin remote_repository_URL #replace with your remote repo url
+git remote -v	#verify that your remote repository url is properly found
+git push --force origin master	#force pushing your project into github repo
+git push <remote> <branch>
+$
